@@ -1,0 +1,92 @@
+﻿@model IEnumerable<OODWebsite.Models.SV>
+
+@{
+    ViewBag.Title = "Quản lý sinh viên";
+    Layout = "~/Areas/NVPhongDaoTao/Views/Shared/_Layout.cshtml";
+}
+
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>QUẢN LÝ SINH VIÊN</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href='@Url.Action("QuanLySV_GD", "QuanLySV_GD")'>Home</a></li>
+                    <li class="breadcrumb-item active">Quản lý sinh viên</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="pl-4 pb-4">
+    @using (Html.BeginForm())
+    {
+        <b>Tìm kiếm:</b> @Html.TextBox("MSSV")
+        <input class = "btn btn-primary" type="submit" name="submit" value="Tìm" />
+        @Html.ActionLink("Thêm", "Create", null, new { @class = "btn btn-default" })
+    }
+
+</div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("MSSV")
+        </th>
+        <th>
+            @Html.DisplayName("Họ tên")
+        </th>
+        <th>
+            @Html.DisplayName("Giới tính")
+        </th>
+        <th>
+            @Html.DisplayName("Ngày sinh")
+        </th>
+        <th>
+            @Html.DisplayName("Mật khẩu")
+        </th>
+        <th>
+            @Html.DisplayName("Khóa học")
+        </th>
+        <th>
+            @Html.DisplayName("Lớp")
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MSSV)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoTen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GioiTinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgaySinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MatKhau)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KhoaHoc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Lop)
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "Edit", null, new { id = item.ID }, new { @class = "btn btn-default" })
+
+                @Html.ActionLink("Xóa", "Delete", null, new { id = item.ID }, new { @class = "btn btn-default" })
+            </td>
+        </tr>
+    }
+
+</table>

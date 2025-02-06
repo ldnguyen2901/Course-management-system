@@ -1,0 +1,30 @@
+﻿body {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.Create {
+    margin-left: 17px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    height:32px;
+    margin-top:-3px;
+    padding-top:3px;
+}
+
+
+.Delete_nv,
+.Delete_sv,
+.Delete_hp {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.form-horizontal,
+.table {
+    padding-top: 10px;
+    padding-left: 20px;
+}

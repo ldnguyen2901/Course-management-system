@@ -1,0 +1,23 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: #ccc;
+}
+
+.card {
+    margin-left: 66px;
+    width: 1270px;
+}
+
+.sidebar-wrapper {
+    height: 100% !important;
+}
+
+.sidebar .nav li > a,
+.off-canvas-sidebar .nav li > a {
+    color: #000 !important;
+}

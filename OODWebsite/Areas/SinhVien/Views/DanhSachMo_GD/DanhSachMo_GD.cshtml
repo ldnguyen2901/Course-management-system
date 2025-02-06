@@ -1,0 +1,78 @@
+﻿@model IEnumerable<OODWebsite.Models.DSLHP>
+@{
+    ViewBag.Title = "Danh sách mở";
+    Layout = "~/Areas/SinhVien/Views/Shared/_Layout.cshtml";
+}
+<div class="content ">
+    <div class="card card-user">
+        <div class="card-header">
+            <h5 class="card-title">DANH SÁCH HỌC PHẦN MỞ</h5>
+        </div>
+        <div class="pl-5">
+            @using (Html.BeginForm())
+            {
+                <b class="pl-5">Tìm kiếm:</b> @Html.DropDownList("Nam", Enumerable.Range(2019, 100).Select(i => new SelectListItem { Text = i.ToString(), Value = i.ToString() }))
+                @Html.DropDownList("HocKy", Enumerable.Range(1, 3).Select(i => new SelectListItem { Text = i.ToString(), Value = i.ToString() }))
+                <input type="submit" value="Tìm" class="btn btn-primary" />
+            }
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm())
+            {
+                <table class="table">
+                    <tr>
+                        <th>
+                            @Html.DisplayName("Mã học phần")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Tên học phần")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Tên lớp")
+                        </th>
+                        <th class="text-center">
+                            @Html.DisplayName("Sỉ số")
+                        </th>
+                        <th class="text-center">
+                            @Html.DisplayName("Số tín chỉ")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Lịch học")
+                        </th>
+                        <th class="text-center">
+                            @Html.DisplayName("Địa điểm")
+                        </th>
+                    </tr>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.MaHP)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TenHP)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TenLop)
+                            </td>
+                            <td class="text-center">
+                                @Html.DisplayFor(modelItem => item.SiSo)
+                            </td>
+                            <td class="text-center">
+                                @Html.DisplayFor(modelItem => item.SoTinChi)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Thu) (@Html.DisplayFor(modelItem => item.TietBD) - @Html.DisplayFor(modelItem => item.TietKT))-@Html.DisplayFor(modelItem => item.Phong)
+                            </td>
+                            <td class="text-center">
+                                @Html.DisplayFor(modelItem => item.DiaDiem)
+                            </td>
+
+                        </tr>
+                    }
+                </table>
+            }
+        </div>
+    </div>
+</div>

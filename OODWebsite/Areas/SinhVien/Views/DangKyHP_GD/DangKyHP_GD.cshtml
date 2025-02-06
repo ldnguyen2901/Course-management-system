@@ -1,0 +1,111 @@
+﻿@using OODWebsite.Models
+@model dynamic
+@{
+    ViewBag.Title = "Đăng ký học phần";
+    Layout = "~/Areas/SinhVien/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="content ">
+    <div class="card card-user">
+        <div class="card-header">
+            <h5 class="card-title">ĐĂNG KÝ HỌC PHẦN</h5>
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm())
+            {
+
+                <table class="table">
+                    <tr>
+                        <th>Mã Học Phần</th>
+                        <th>Tên Học Phần</th>
+                        <th>Lớp</th>
+                        <th class="text-center">Số Tín Chỉ</th>
+                        <th>Lịch học<th>
+                    </tr>
+                    @foreach (DSDK m in Model.DSDK)
+                    {
+                        <tr>
+                            <td>
+                                @m.MaHP
+                            </td>
+                            <td>
+                                @m.TenHP
+                            </td>
+                            <td>
+                                @m.TenLop
+                            </td>
+                            <td class="text-center">
+                                @m.SoTinChi
+                            </td>
+                            <td>
+                                @m.Thu (@m.TietBD-@m.TietKT)
+                            </td>
+                            <td>
+                                @Html.CheckBox("DangKy", false, new { id = @m.MaHP })
+                            </td>
+                        </tr>
+                    }
+                    <tr>
+                        <td>
+                            <input type="submit" value="Hủy học phần" class="btn btn-primary" />
+                        </td>
+                    </tr>
+                </table>
+            }
+        </div>
+
+        <div class="card-body">
+            @using (Html.BeginForm())
+            {
+
+                <table class="table">
+                    <tr>
+                        <th>Mã Học Phần</th>
+                        <th>Tên Học Phần</th>
+                        <th>Lớp</th>
+                        <th class="text-center">Số Tín Chỉ</th>
+                        <th class="text-center">Sỉ Số</th>
+                        <th class="text-center">Đã Đăng Ký</th>
+                        <th>Lịch học
+                        <th>
+                    </tr>
+                    @foreach (DSLHP m in Model.DSLHP)
+                    {
+                        <tr>
+                            <td>
+                                @m.MaHP
+                            </td>
+                            <td>
+                                @m.TenHP
+                            </td>
+                            <td>
+                                @m.TenLop
+                            </td>
+                            <td class="text-center">
+                                @m.SoTinChi
+                            </td>
+                            <td class="text-center">
+                                @m.SiSo
+                            </td>
+                            <td class="text-center">
+                                @m.ĐK
+                            </td>
+                            <td>
+                                @m.Thu (@m.TietBD-@m.TietKT)
+                            </td>
+                            <td>
+                                @Html.CheckBox("DangKy", false, new { id = @m.MaHP })
+                            </td>
+                        </tr>
+                    }
+                    <tr>
+                        <td>
+                            <input type="submit" value="Đăng ký" class="btn btn-primary" />
+                        </td>
+                    </tr>
+                </table>
+            }
+        </div>
+    </div>
+</div>

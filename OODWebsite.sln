@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OODWebsite", "OODWebsite\OODWebsite.csproj", "{8238396A-AEE5-488B-9A0F-794B9B7D3DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OODWebsite.Tests", "OODWebsite.Tests\OODWebsite.Tests.csproj", "{1093161F-36E4-467E-9B83-29CE601A901B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8238396A-AEE5-488B-9A0F-794B9B7D3DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8238396A-AEE5-488B-9A0F-794B9B7D3DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8238396A-AEE5-488B-9A0F-794B9B7D3DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8238396A-AEE5-488B-9A0F-794B9B7D3DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1093161F-36E4-467E-9B83-29CE601A901B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1093161F-36E4-467E-9B83-29CE601A901B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1093161F-36E4-467E-9B83-29CE601A901B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1093161F-36E4-467E-9B83-29CE601A901B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3843B03D-ABAE-411A-A851-5BF2B3383FEB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,93 @@
+﻿@model OODWebsite.Models.DSLHP
+
+@{
+    ViewBag.Title = "Danh sách lớp học phần";
+    Layout = "~/Areas/NVPhongDaoTao/Views/Shared/_Layout.cshtml";
+}
+@*<h3>Are you sure you want to delete this?</h3>*@
+<div class="Delete_hp">
+    <h4>Xóa lớp học phần</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayName("Mã học phần")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaHP)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Tên học phần")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenHP)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Tên lớp")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenLop)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("LT-TH")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LT_TH)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Phòng")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phong)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Thứ")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Thu)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Tiết bắt đầu")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TietBD)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Tiết kết thúc")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TietKT)
+        </dd>   
+
+        <dt>
+            @Html.DisplayName("Địa điểm")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiaDiem)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color">
+        <input type="submit" value="Xóa" class="btn btn-primary" /> 
+        @Html.ActionLink("Hủy", "Index", null, new { @class = "btn btn-default" })
+    </div>
+    }
+</div>
