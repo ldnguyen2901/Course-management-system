@@ -442,7 +442,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 - Sinh viên phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Sinh viên đã thực hiện use case đăng ký học phần.
 
-• **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công,danh sách đăng ký được tìm kiếm sẽ xuất hiện. Ngược lại sẽ không có danh sách nào được hiển thị”.
+• **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công,danh sách đăng ký được tìm kiếm sẽ xuất hiện. Ngược lại sẽ không có danh sách nào được hiển thị.<br>
 • **Điểm mở rộng**: Không có.
 
 </details>
@@ -465,7 +465,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 - Sinh viên phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Nhân viên phòng đào tạo đã thực hiện use case thêm học phần.
 
-● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công,danh sách lớp học phần được tìm kiếm sẽ xuất hiện. Ngược lại sẽ không có danh sách lớp học phần nào được hiển thị”.
+● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công,danh sách lớp học phần được tìm kiếm sẽ xuất hiện. Ngược lại sẽ không có danh sách lớp học phần nào được hiển thị.<br>
 ● **Điểm mở rộng**: Không có.
 
 </details>
@@ -490,8 +490,8 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
         - Nếu sinh viên nhập sai hoặc không nhập dòng nhập lại mật khẩu mới, dòng chữ đỏ ‘Nhập lại mật khẩu mới không đúng’ sẽ hiển thị bên trên các dòng.
 
 ● **Các yêu cầu đặc biệt**: Không có.<br>
-● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: Sinh viên phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
-● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công, mật khẩu của tài khoản sinh viên sẽ được cập nhật. Ngược lại sẽ không có gì xảy ra.
+● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: Sinh viên phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.<br>
+● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công, mật khẩu của tài khoản sinh viên sẽ được cập nhật. Ngược lại sẽ không có gì xảy ra.<br>
 ● **Điểm mở rộng**: Không có.
 
 </details>
@@ -510,8 +510,8 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
       - Nếu các actor nhập tên và mật khẩu sai thì hệ thống sẽ báo lỗi. Actor có thể đăng nhập lại hoặc hủy bỏ việc đăng nhập lúc này use case sẽ kết thúc.
 
 ● **Các yêu cầu đặc biệt**: Không có.<br>
-● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: Trong hệ thống phải có danh sách các tài khoản.
-● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công, actor sẽ có các quyền sử dụng hệ thống. Ngược lại sẽ không có gì thay đổi.
+● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: Trong hệ thống phải có danh sách các tài khoản.<br>
+● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công, actor sẽ có các quyền sử dụng hệ thống. Ngược lại sẽ không có gì thay đổi.<br>
 ● **Điểm mở rộng**: Không có.
 
 </details>
@@ -530,8 +530,8 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
       - Nếu nhân viên phòng đào tạo bấm nút 'Lưu' mà có thông tin bị thiếu thì một thông báo sẽ xuất hiện trên đầu thông báo 'thông tin bị thiếu" và sẽ không lưu học phần này và tiếp tục use case.
 
 ● **Các yêu cầu đặc biệt**: Không có.<br>
-● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: Nhân viên phòng đào tạo phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
-● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công, một tài khoản mới sẽ được thêm vào danh sách tài khoản và thông tin tài khoản sẽ được lưu giữ trong database. Ngược lại sẽ không có gì thay đổi.
+● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: Nhân viên phòng đào tạo phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.<br>
+● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công, một tài khoản mới sẽ được thêm vào danh sách tài khoản và thông tin tài khoản sẽ được lưu giữ trong database. Ngược lại sẽ không có gì thay đổi.<br>
 ● **Điểm mở rộng**: Không có.
 
 </details>
@@ -554,7 +554,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 - Nhân viên phòng đào tạo phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Trong hệ thống phải có danh sách các tài khoản sinh viên.
 
-● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công, một tài khoản mới sẽ được thêm vào danh sách tài khoản và thông tin tài khoản sẽ được lưu giữ trong database. Ngược lại sẽ không có gì thay đổi.
+● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công, một tài khoản mới sẽ được thêm vào danh sách tài khoản và thông tin tài khoản sẽ được lưu giữ trong database. Ngược lại sẽ không có gì thay đổi.<br>
 ● **Điểm mở rộng**: Không có.
 
 </details>
@@ -576,7 +576,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 - Nhân viên phòng đào tạo phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Trong hệ thống phải có danh sách các tài khoản sinh viên.
 
-● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công, tài khoản sinh viên được chọn sẽ được cập nhật lại mới và thông tin cũng sẽ được cập nhật lại tại database. Ngược lại sẽ không có gì thay đổi.
+● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công, tài khoản sinh viên được chọn sẽ được cập nhật lại mới và thông tin cũng sẽ được cập nhật lại tại database. Ngược lại sẽ không có gì thay đổi.<br>
 ● **Điểm mở rộng**: Không có.
 
 </details>
@@ -598,7 +598,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 - Nhân viên phòng đào tạo phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Trong hệ thống phải có danh sách các tài khoản sinh viên.
 
-● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công, tài khoản sinh viên được tìm kiếm sẽ xuất hiện. Ngược lại sẽ có dòng chữ “Không tìm thấy sinh viên”.
+● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công, tài khoản sinh viên được tìm kiếm sẽ xuất hiện. Ngược lại sẽ có dòng chữ “Không tìm thấy sinh viên”.<br>
 ● **Điểm mở rộng**: Không có.
 
 </details>
@@ -631,8 +631,8 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
       - Nếu người quản lý bấm nút 'Lưu' mà có thông tin bị thiếu thì một thông báo sẽ xuất hiện trên đầu thông báo 'thông tin bị thiếu" và sẽ không lưu tài khoản này và tiếp tục use case.
 
 ● **Các yêu cầu đặc biệt**: Không có.<br>
-● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: Người quản lý phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
-● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công, tài khoản nhân viên sẽ được thêm, xóa, chỉnh sửa ở danh sách tài khoản nhân viên. Ngược lại sẽ không có gì thay đổi.
+● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: Người quản lý phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.<br>
+● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công, tài khoản nhân viên sẽ được thêm, xóa, chỉnh sửa ở danh sách tài khoản nhân viên. Ngược lại sẽ không có gì thay đổi.<br>
 ● **Điểm mở rộng**: Không có.
 
 </details>
@@ -653,7 +653,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 - Người quản lý phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Trong hệ thống phải có danh sách các tài khoản sinh viên.
 
-● **Trạng thái hệ thống sau khi thực hiện Use-case**: Hệ thống sẽ hiển thị danh sách lịch sử tạo lớp học phần bởi các nhân viên phòng đào tạo.
+● **Trạng thái hệ thống sau khi thực hiện Use-case**: Hệ thống sẽ hiển thị danh sách lịch sử tạo lớp học phần bởi các nhân viên phòng đào tạo.<br>
 ● **Điểm mở rộng**: Không có.
 
 </details>
@@ -673,7 +673,8 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 ● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: 
 - Người quản lý phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Sinh viên đã thực hiện Use-case Đăng ký học phần.
-● **Trạng thái hệ thống sau khi thực hiện Use-case**: Hệ thống sẽ hiển thị danh sách lịch sử đăng ký lớp học phần bởi các sinh viên.
+
+● **Trạng thái hệ thống sau khi thực hiện Use-case**: Hệ thống sẽ hiển thị danh sách lịch sử đăng ký lớp học phần bởi các sinh viên.<br>
 ● **Điểm mở rộng**: Không có.
 
 </details>
@@ -694,7 +695,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 - Nhân viên phòng đào tạo phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Sinh viên đã thực hiện Use-case Đăng ký học phần.
 
-● **Trạng thái hệ thống sau khi thực hiện Use-case**: Hệ thống sẽ hiển thị danh sách tổng số sinh viên đã đăng ký lớp học phần.
+● **Trạng thái hệ thống sau khi thực hiện Use-case**: Hệ thống sẽ hiển thị danh sách tổng số sinh viên đã đăng ký lớp học phần.<br>
 ● **Điểm mở rộng**: Không có.
 </details>
 
@@ -860,3 +861,395 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 | 5   | Matkhau        | Nvarchar (50) | Khác Null    | Mật khẩu            |
 
 </details>
+
+<details>
+<summary>Chương trình đào tạo (CTDAOTAO)</summary>
+
+| STT | Tên thuộc tính | Kiểu          | Ràng buộc    | Ý nghĩa/ghi chú              |
+| --- | -------------- | ------------- | ------------ | ---------------------------- |
+| 1   | **MaCTDT**     | Int           | Tự động tăng | Mã của chương trình đào tạo  |
+| 2   | TenCTDT        | Nvarchar (20) |              | Tên của chương trình đào tạo |
+| 3   | Nganh          | Nvarchar (30) |              | Tên ngành học                |
+
+</details>
+
+<details>
+<summary>Giảng viên (GIANGVIEN)</summary>
+
+| STT | Tên thuộc tính | Kiểu          | Ràng buộc    | Ý nghĩa/ghi chú          |
+| --- | -------------- | ------------- | ------------ | ------------------------ |
+| 1   | **MaGV**       | Int           | Tự động tăng | Mã số giảng viên         |
+| 2   | HoTen          | Nvarchar (50) |              | Họ tên của giảng viên    |
+| 3   | GioiTinh       | Nvarchar (4)  |              | Giới tính của giảng viên |
+| 4   | HocVi          | Nvarchar (20) |              | Học vị của giảng viên    |
+| 5   | Email          | Nvarchar (30) | Khác Null    | Email của giảng viên     |
+
+</details>
+
+<details>
+<summary>Khoa (KHOA)</summary>
+
+| STT | Tên thuộc tính | Kiểu          | Ràng buộc    | Ý nghĩa/ghi chú |
+| --- | -------------- | ------------- | ------------ | --------------- |
+| 1   | **MaSoKhoa**   | Int           | Tự động tăng | Mã số khoa      |
+| 2   | MaKhoa         | Nvarchar (10) |              | Mã khoa         |
+| 3   | TenKhoa        | Nvarchar (20) |              | Tên khoa        |
+
+</details>
+
+<details>
+<summary>Học phần (HOCPHAN)</summary>
+
+| STT | Tên thuộc tính | Kiểu          | Ràng buộc            | Ý nghĩa/ghi chú                    |
+| --- | -------------- | ------------- | -------------------- | ---------------------------------- |
+| 1   | **MSHP**       | Int           | Tự động tăng         | Mã số học phần                     |
+| 2   | MaHP           | Nvarchar (10) |                      | Mã học phần                        |
+| 3   | TenHP          | Nvarchar (50) |                      | Tên học phần                       |
+| 4   | SoTinChi       | Int           | Khác Null            | Số tín chỉ của học phần            |
+| 5   | MaSoKhoa       | Int           | Quan hệ với lớp KHOA | Mã khoa                            |
+| 6   | TuyenQuyet     | Int           |                      | Điều kiện tuyết quyết của học phần |
+
+</details>
+
+<details>
+<summary>Lớp học phần (LOPHOCPHAN)</summary>
+
+| STT | Tên thuộc tính | Kiểu          | Ràng buộc    | Ý nghĩa/ghi chú                 |
+| --- | -------------- | ------------- | ------------ | ------------------------------- |
+| 1   | **MaLHP**      | Int           | Tự động tăng | Mã lớp học phần                 |
+| 2   | TenLop         | Nvarchar (10) | Khác Null    | Tên lớp học phần                |
+| 3   | SiSo           | Int           |              | Sỉ số                           |
+| 4   | LT_TH          | Nvarchar (10) | Khác Null    | Lớp lý thuyết hay thực hành     |
+| 5   | Thu            | Nvarchar (3)  | Khác Null    | Thứ trong tuần                  |
+| 6   | TietBD         | Int           | Khác Null    | Tiết bắt đầu của lớp học phần   |
+| 7   | TietKT         | Int           | Khác Null    | Tiết kết thúc của lớp học phần  |
+| 8   | Phong          | Nvarchar (5)  | Khác Null    | Phòng học của lớp học phần      |
+| 9   | DiaDiem        | Nvarchar (20) | Khác Null    | Địa điểm học (Thủ Đức hoặc NVC) |
+| 10  | KhoaHoc        | Int           | Khác Null    | Khoá học của lớp học phần       |
+| 11  | Huy            | Nvarchar (3)  |              | Huỷ học phần nếu sỉ số không đủ |
+
+</details>
+
+<details>
+<summary>Lớp (LOP)</summary>
+
+| STT | Tên thuộc tính | Kiểu          | Ràng buộc            | Ý nghĩa/ghi chú |
+| --- | -------------- | ------------- | -------------------- | --------------- |
+| 1   | **MaLop**      | Int           | Tự động tăng         | Mã lớp          |
+| 2   | TenLop         | Nvarchar (20) |                      | Tên lớp         |
+| 3   | MaSoKhoa       | Int           | Quan hệ với lớp KHOA | Mã Số Khoa      |
+| 4   | SiSo           | Int           |                      | Sỉ số lớp       |
+
+</details>
+
+<details>
+<summary>Sinh viên (SINHVIEN)</summary>
+
+| STT | Tên thuộc tính | Kiểu          | Ràng buộc                | Ý nghĩa/ghi chú         |
+| --- | -------------- | ------------- | ------------------------ | ----------------------- |
+| 1   | **ID_SV**      | Int           | Tự động tăng             | ID của sinh viên        |
+| 2   | MSSV           | Nvarchar (10) | Khác Null                | Mã số sinh viên         |
+| 3   | HoTen          | Nvarchar (50) | Khác Null                | Họ tên của sinh viên    |
+| 4   | GioiTinh       | Nvarchar (3)  |                          | Giới tính của sinh viên |
+| 5   | NgaySinh       | Date          |                          | Ngày sinh của sinh viên |
+| 6   | MatKhau        | Nvarchar (20) | Khác Null                | Mật khẩu của sinh viên  |
+| 7   | KhoaHoc        | Int           | Khác Null                | Khoá học                |
+| 8   | MaCTDT         | Int           | Quan hệ với lớp CTDAOTAO | Mã Chương trình đào tạo |
+| 9   | MaLop          | Int           | Quan hệ với lớp LOP      | Mã lớp                  |
+
+</details>
+
+<details>
+<summary>Đăng ký (DANGKY)</summary>
+
+| STT | Tên thuộc tính | Kiểu | Ràng buộc                  | Ý nghĩa/ghi chú |
+| --- | -------------- | ---- | -------------------------- | --------------- |
+| 1   | **MaLHP**      | Int  | Quan hệ với lớp LOPHOCPHAN | Mã số học phần  |
+| 2   | ID_SV          | Int  | Quan hệ với lớp SINHVIEN   | Mã học phần     |
+| 3   | ThoiGianBD     | Date |                            | Tên học phần    |
+
+</details>
+
+<details>
+<summary>Mở lớp (MOLOP)</summary>
+
+| STT | Tên thuộc tính        | Kiểu | Ràng buộc                  | Ý nghĩa/ghi chú |
+| --- | --------------------- | ---- | -------------------------- | --------------- |
+| 1   | **MaLHP**             | Int  | Quan hệ với lớp LOPHOCPHAN | Mã lớp học phần |
+| 2   | MaGV                  | Int  | Quan hệ với lớp GIANGVIEN  | Mã giảng viên   |
+| 3   | MSHP                  | Int  | Quan hệ với lớp HOCPHAN    | Mã số học phần  |
+| 4   | MaNV                  | Int  | Quan hệ với lớp NVPDT      | Mã nhân viên    |
+| 5   | HocKy                 | Int  | Khác Null                  | Học kỳ          |
+| 6   | Nam                   | Int  | Khác Null                  | Năm học         |
+
+</details>
+
+<details>
+<summary>Bảng tham số (BANGTHAMSO)</summary>
+
+| STT | Tên thuộc tính | Kiểu          | Ràng buộc    | Ý nghĩa/ghi chú            |
+| --- | -------------- | ------------- | ------------ | -------------------------- |
+| 1   | **Stt**        | Int           | Tự động tăng | Số thứ tự, dùng để quản lý |
+| 2   | MoTa           | Nvarchar (50) |              | Mô tả ý nghĩa tham số      |
+| 3   | GiaTri         | SQL_Variant   |              | Giá trị tương ứng          |
+
+</details>
+
+<details open>
+<summary style="font-style: oblique">Kiểm tra đăng nhập của sinh viên và nhân viên</summary>
+
+```sql
+CREATE PROCEDURE [dbo].[sp.NVPDT_Login_Check]
+	@UserName NVARCHAR (20),
+	@Password NVARCHAR (30),
+	@res BIT OUTPUT 
+AS
+BEGIN
+	DECLARE @count INT
+
+	SELECT @count = count(*) FROM NVPDT WHERE @UserName = email AND @Password = Matkhau
+
+	IF @count > 0 
+		SET @res = 1
+	ELSE 
+		SET @res = 0
+END
+```
+```sql
+CREATE PROCEDURE [dbo].[sp.SV_Login_Check]
+	@UserName NVARCHAR (20),
+	@Password NVARCHAR (30),
+	@res BIT OUTPUT 
+AS
+BEGIN
+	DECLARE @count INT
+
+	SELECT @count = count(*) FROM SINHVIEN WHERE @UserName = MSSV AND @Password = MatKhau
+
+	IF @count > 0 
+		SET @res = 1
+	ELSE 
+		SET @res = 0
+END
+```
+</details>
+
+# Chương 5: Kiến trúc hệ thống
+## 1. Hệ thống mô hình MVC
+<img src="pic/MVC.png">
+
+| **Thành phần** | **Diễn giải**                                                                                             |
+| -------------- | --------------------------------------------------------------------------------------------------------- |
+| View           | Thành phần xử lý hiển thị giao diện với người dùng                                                        |
+| Controller     | Thành phần quản lý xử lý các yêu cầu của người dùng, xác thực tính hợp lệ của dữ liệu nhập của người dùng |
+| Model          | Thành phần thực hiện giao tiếp với database                                                               |
+
+Luồng xử lý trong của mô hình MVC, bạn có thể hình dung cụ thể và chi tiết qua từng bước dưới đây:
+-	Khi một yêu cầu của từ máy khách (Client) gửi đến Server. Thì bị Controller trong MVC chặn lại để xem đó là URL request hay sự kiện
+-	Sau đó, Controller xử lý input của user rồi giao tiếp với Model trong MVC
+-	Model chuẩn bị data và gửi lại cho Controller
+-	Cuối cùng, khi xử lý xong yêu cầu thì Controller gửi dữ liệu trở lại View và hiển thị cho người dùng trên trình duyệt
+
+Ở đây, View không giao tiếp trực tiếp với Model. Sự tương tác giữa View và Model sẽ chỉ được xử lý bởi Controller
+
+## 2. Mô tả chi tiết từng thành phần trong hệ thống
+
+<details>
+<summary>View</summary>
+
+| STT | Tên View                 | Diễn giải                                            |
+| --- | ------------------------ | ---------------------------------------------------- |
+| 1   | DanhSachHP_GD            | Hiển thị danh sách học phần                          |
+| 2   | · Create (HP)            | Hiển thị trang tạo thêm học phần                     |
+| 3   | · Delete (HP)            | Hiển thị trang xoá học phần                          |
+| 4   | · Edit (HP)              | Hiển thị trang chỉnh sửa thông tin học phần          |
+| 5   | DanhSachKQDK_GD          | Hiển thị danh sách kết quả đăng ký                   |
+| 6   | DanhSachLHP_GD           | Hiển thi danh sách Lớp học phần                      |
+| 7   | · Create (LHP)           | Hiển thị trang tạo thêm lớp học phần                 |
+| 8   | · Delete (LHP)           | Hiển thị trang xoá lớp học phần                      |
+| 9   | · Edit (LHP)             | Hiển thị trang chỉnh sửa thông tin lớp học phần      |
+| 10  | QuanLySV_GD              | Hiển thị danh sách quản lý sinh viên                 |
+| 11  | · Create (QL-SV)         | Hiển thị trang thêm sinh viên                        |
+| 12  | · Delete (QL-SV)         | Hiển thị trang xoá sinh viên                         |
+| 13  | · Edit (QL-SV)           | Hiển thị trang chỉnh sửa thông tin sinh viên         |
+| 14  | QuanLyNV_GD              | Hiển thị danh sách quản lý nhân viên                 |
+| 15  | · Create (QL-NV)         | Hiển thị trang thêm nhân viên                        |
+| 16  | · Delete (QL-NV)         | Hiển thị trang xoá nhân viên                         |
+| 17  | · Edit (QL-NV)           | Hiển thị trang chỉnh sửa thông tin nhân viên         |
+| 18  | XemLSDK_GD               | Hiển thị lịch sử đăng ký                             |
+| 19  | XemLSM_GD                | Hiển thị lịch sử mở lớp học phần                     |
+| 20  | DangKyHP_GD              | Hiển thị danh sách đăng ký học phần                  |
+| 21  | Edit (SinhVien)          | Hiển thị trang thay đổi mật khẩu của sinh viên       |
+| 22  | ThongTinSV_GD            | Hiển thị thông tin của sinh viên                     |
+| 23  | KQDKHP_GD                | Hiển thị thông tin đã đăng ký học phần của sinh viên |
+| 24  | DanhSachMo_GD            | Hiển thị danh sách học phần sắp mở                   |
+| 25  | LoginAdmin               | Hiển thị trang Màn hình đăng nhập cho nhân viên      |
+| 26  | LoginUser                | Hiển thị trang Màn hình đăng nhập cho sinh viên      |
+
+</details>
+
+<details>
+<summary>Model</summary>
+
+| STT | Tên Class | Diễn giải                                                 |
+| --- | --------- | --------------------------------------------------------- |
+| 1   | AccNV     | Kết nối dữ liệu và kiểm tra đăng nhập tài khoản nhân viên |
+| 2   | AccSV     | Kết nối dữ liệu và kiểm tra đăng nhập tài khoản sinh viên |
+| 3   | DSDK      | Tạo lớp chứa thông tin đăng ký                            |
+| 4   | DSLHP     | Tạo lớp chứa thông tin của lớp học phần                   |
+| 5   | LoginNV   | Tạo lớp kiểm tra người dùng nhập thông tin                |
+| 6   | LSDK      | Tạo lớp chứa các thông tin sinh viên đăng ký              |
+| 7   | LSM       | Tạo lớp chứa các thông tin                                |
+| 8   | SV        | Tạo lớp sinh viên chứa thông tin về sinh viên             |
+
+</details>
+
+
+<details>
+<summary>Controller</summary>
+
+| STT | Tên bảng                      | Diễn giải                                       |
+| --- | ----------------------------- | ----------------------------------------------- |
+| 1   | DanhSachHP_GDController       | Lấy danh sách học phần                          |
+| 2   | · Create (HP)         | Tạo thêm học phần                               |
+| 3   | · Delete (HP)         | Xoá học phần                                    |
+| 4   | · Edit (HP)           | Chỉnh sửa thông tin học phần                    |
+| 5   | DanhSachKQDK_GDController     | Lấy danh sách kết quả đăng ký                   |
+| 6   | DanhSachLHP_GDController      | Lấy danh sách Lớp học phần                      |
+| 7   | · Create (LHP)        | Tạo thêm lớp học phần                           |
+| 8   | · Delete (LHP)        | Xoá lớp học phần                                |
+| 9   | · Edit (LHP)          | Chỉnh sửa thông tin lớp học phần                |
+| 10  | QuanLySV_GDController         | Lấy danh sách quản lý sinh viên                 |
+| 11  | · Create (QL-SV)      | Thêm sinh viên                                  |
+| 12  | · Delete (QL-SV)      | Xoá sinh viên                                   |
+| 13  | · Edit (QL-SV)        | Chỉnh sửa thông tin sinh viên                   |
+| 14  | QuanLyNV_GDController         | Lấy danh sách quản lý nhân viên                 |
+| 15  | · Create (QL-NV)      | Thêm nhân viên                                  |
+| 16  | · Delete (QL-NV)      | Xoá nhân viên                                   |
+| 17  | · Edit (QL-NV)        | Chỉnh sửa thông tin nhân viên                   |
+| 18  | XemLSDK_GDController          | Lấy lịch sử đăng ký                             |
+| 19  | XemLSM_GDController           | Lấy lịch sử mở lớp học phần                     |
+| 20  | DangKyHP_GDController         | Lấy danh sách đăng ký học phần                  |
+| 21  | DanhSachMo_GDController       | Lấy danh sách mở lớp học phần                   |
+| 22  | ThongTinSV_GDController       | Lấy thông tin của sinh viên                     |
+| 23  | Edit (SinhVien)               | Thay đổi mật khẩu của sinh viên                 |
+| 24  | KQDKHP_GD                     | Lấy thông tin đã đăng ký học phần của sinh viên |
+| 25  | LoginAdmin                    | Màn hình đăng nhập cho nhân viên                |
+| 26  | LoginUser                     | Màn hình đăng nhập cho sinh viên                |
+| 27  | NVPhongDaoTaoAreaRegistration | Dùng để chỉ tới các controller lấy thông tin    |
+| 28  | QuanLyHeThongAreaRegistration |
+| 29  | SinhVienAreaRegistration      |
+
+</details>
+
+# Chương 6: Thiết kế giao diện
+
+<details open>
+<summary>Danh sách các màn hình</summary>
+
+| **STT** | **Tên màn hình** | **Ý nghĩa**                                               |
+| ------- | ---------------- | --------------------------------------------------------- |
+| 1       | LoginAdmin       | Hiển thị trang màn hình đăng nhập cho nhân viên           |
+| 2       | QuanLyNV_GD      | Hiển thị danh sách quản lý nhân viên                      |
+| 3       | ● Create         | Hiển thị trang thêm nhân viên                             |
+| 4       | ● Edit           | Hiển thị trang chỉnh sửa thông tin nhân viên              |
+| 5       | ● Detele         | Hiển thị trang xóa nhân viên                              |
+| 6       | XemLSM_GD        | Hiển thị lịch sử mở lớp học phần                          |
+| 7       | XemLSDK_GD       | Hiển thị lịch sử đăng ký                                  |
+| 8       | QuanLySV_GD      | Hiển thị danh sách quản lý sinh viên                      |
+| 9       | ● Create         | Hiển thị trang thêm sinh viên                             |
+| 10      | ● Edit           | Hiển thị trang chỉnh sửa thông tin sinh viên              |
+| 11      | ● Detele         | Hiển thị trang xóa sinh viên                              |
+| 12      | DanhSachHP_GD    | Hiển thị danh sách học phần                               |
+| 13      | ● Create         | Hiển thị trang tạo thêm học phần                          |
+| 14      | ● Detele         | Hiển thị trang xóa học phần                               |
+| 15      | ● Edit           | Hiển thị trang chỉnh sửa thông tin học phần               |
+| 16      | DanhSachLHP_GD   | Hiển thị danh sách Lớp học phần                           |
+| 17      | ● Create         | Hiển thị trang tạo thêm lớp học phần                      |
+| 18      | ● Edit           | Hiển thị trang chỉnh sửa thông tin lớp học phần           |
+| 19      | ● Detele         | Hiển thị trang xóa lớp học phần                           |
+| 20      | DanhSachKQDK_GD  | Hiển thị danh sách kết quả đăng ký                        |
+| 21      | LoginUser        | Hiển thị trang Màn hình đăng nhập cho sinh viên           |
+| 22      | ThongTinSV_GD    | Hiển thị thông tin của sinh viên                          |
+| 23      | ● Edit           | Hiển thị trang thay đổi mật khẩu của sinh viên            |
+| 24      | DanhSachMo_GD    | Hiển thị danh sách học phần sắp mở                        |
+| 25      | DangKyHP_GD      | Hiển thị danh sách đăng ký học phần                       |
+| 26      | KQDKHP_GD        | Hiển thị danh sách kết quả đăng ký học phần của sinh viên |
+
+</details>
+
+### Mô tả chi tiết mỗi màn hình
+
+- **Login Admin**<br>
+<img src="pic/loginadmin.png">
+
+<details>
+<summary style="font-weight: bold">Quản lý hệ thống</summary>
+
+- Quản lý nhân viên: <br> <img src="pic/quanlynhanvien.png">
+  + Create:<br> <img src="pic/createnv.png">
+  + Edit:<br> <img src="pic/editnv.png">
+  + Delete:<br> <img src="pic/deletenv.png">
+- Xem lịch sử mở: <br> <img src="pic/xemlichsumo.png">
+- Xem lịch sử đăng ký: <br> <img src="pic/xemlichsudangky.png">
+
+</details>
+
+<details open>
+<summary style="font-weight: bold">Nhân viên phòng đào tạo</summary>
+
+<details>
+<summary>Quản lý sinh viên</summary> <br> <img src="pic/quanlysinhvien.png">
+<ul>
+    <li>Create:<br> <img src="pic/createsv.png"></li>
+    <li>Edit:<br> <img src="pic/editsv.png"></li>
+    <li>Delete:<br> <img src="pic/deletesv.png"></li>
+</ul>
+</details>
+
+<details>
+<summary>Danh sách học phần</summary> <br> <img src="pic/danhsachhocphan.png">
+<ul>
+    <li>Create:<br> <img src="pic/createhp.png"></li>
+    <li>Edit:<br> <img src="pic/edithp.png"></li>
+    <li>Delete:<br> <img src="pic/deletehp.png"></li>
+</ul>
+</details>
+
+<details>
+<summary>Danh sách lớp học phần</summary> <br> <img src="pic/danhsachlophocphan.png">
+<ul>
+    <li>Create:<br> <img src="pic/createlophp.png"></li>
+    <li>Edit:<br> <img src="pic/editlophp.png"></li>
+    <li>Delete:<br> <img src="pic/deletelophp.png"></li>
+    <li>Kết quả đăng ký học phần <br> <img src="pic/ketquadangkyhocphan.png"></li>
+</ul>
+</details>
+
+
+</details>
+
+<details>
+<summary style="font-weight: bold">Sinh viên</summary>
+
+- **Login User** <br> <img src="pic/loginuser.png">
+- Thông tin sinh viên <br> <img src="pic/thongtinsinhvien.png">
+- Thay đổi mật khẩu <br> <img src="pic/thaydoimatkhau.png">
+- Danh sách học phần mở <br> <img src="pic/danhsachhocphanmo.png">
+- Đăng ký học phần <br> <img src="pic/dangkyhocphan1.png"> <br> <img src="pic/dangkyhocphan2.png">
+- Kết quả đăng ký học phần <br> <img src="pic/ketquadangkyhocphansv.png">
+</details>
+
+# Kết luận
+
+Môi trường phát triển và Môi trường triển khai
+- Môi trường phát triển ứng dụng:
+    - Hệ điều hành: Microsoft Windows 10
+    - Hệ quản trị cơ sở dữ liệu: Microsoft SQL server Management Studio 18
+    - Công cụ phân tích thiết kế: Draw\.io
+    - Công cụ xây dựng ứng dụng: Visual Studio 2019
+    - Các thư viện đã dùng: Bootstrap, System, System.Collections.Generic ,System.Data.SqlClient, System.Dynamic, System.Linq, System.Reflection, System\.Web, System.Web.Mvc
+- Môi trường triển khai ứng dụng:
+    - Hệ điều hành: Microsoft Windows 
+    - Cần cài đặt .Net Framework 4.8, LINQ to SQL tool, ASP\.NET and web development cho Visual Studio
+
