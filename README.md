@@ -144,7 +144,7 @@ Có hai loại học phần: học phần bắt buộc và học phần tự ch�
 <li>Học phần tự chọn là học phần chứa đựng những nội dung kiến thức cần thiết, nhưng sinh viên được tự chọn theo hướng dẫn của Trường nhằm đa dạng hoá hướng chuyên môn hoặc được tự chọn tùy ý để tích lũy đủ số học phần quy định cho mỗi chương trình.
 </ol>
 Tín chỉ được sử dụng để tính khối lượng học tập của sinh viên. Một tín chỉ được quy định bằng 15 tiết học lý thuyết; 30 - 45 tiết thực hành, thí nghiệm hoặc thảo luận; 45 - 90 giờ thực tập tại cơ sở; 45 - 60 giờ làm tiểu luận, bài tập lớn hoặc đồ án, khóa luận tốt nghiệp. Một tiết học được tính bằng 50 phút.
-<br><br>
+
 Ngoài việc được phân loại là bắt buộc hoặc tự chọn, các học phần có các khái niệm khác như sau: 
 <ol type="a" start=1>
 <li>Học phần chung (Giáo dục Quốc phòng - An ninh, Giáo dục Thể chất, các học phần lý luận chính trị …) là các học phần được giảng dạy chung cho tất cả các ngành theo quy định.
@@ -154,7 +154,7 @@ Ngoài việc được phân loại là bắt buộc hoặc tự chọn, các h�
 <li>Học phần tương đương: một học phần được gọi là tương đương với học phần A khi có nội dung kiến thức và thời lượng đáp ứng yêu cầu cơ bản của học phần A. 
 <li>Học phần tự chọn định hướng: là học phần mà sinh viên phải chọn trong các học phần quy định cho một ngành, chuyên ngành cụ thể. 
 </ol>Các học phần được gọi là tích lũy khi điểm đánh giá học phần đạt từ điểm 5,0 trở lên.
-<br><br>
+
 3.3.3. Tổ chức lớp 
 
 1. Lớp học phần: Những sinh viên theo học cùng một học phần trong cùng một khoảng thời gian và cùng một giảng viên tạo thành một lớp học phần. Mỗi lớp học phần được ký hiệu bằng một mã số riêng do trường quy định. 
@@ -210,19 +210,19 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 # Chương 2: Mô hình Use-Case
 
 ## 1. Sơ đồ Use-case
-- Quyền quản lý hệ thống
-<img src="pic/quyenquanlyhethong.png"><br><br>
+- Quyền quản lý hệ thống<br>
+<img src="pic/quyenquanlyhethong.png">
 
-- Quyền quản lý học phần
-<img src ="pic/quyenquanlyhocphan.png"><br><br>
+- Quyền quản lý học phần<br>
+<img src ="pic/quyenquanlyhocphan.png">
 
-- Quyền quản lý lớp học phần
-<img src="pic/quyenquanlylophocphan.png"><br><br>
+- Quyền quản lý lớp học phần<br>
+<img src="pic/quyenquanlylophocphan.png">
 
-- Quyền quản lý sinh viên
-<img src="pic/quyenquanlysinhvien.png"><br><br>
+- Quyền quản lý sinh viên<br>
+<img src="pic/quyenquanlysinhvien.png">
 
-- Quyền đăng ký học phần
+- Quyền đăng ký học phần<br>
 <img src="pic/quyenquanlyhocphan.png">
 
 ## 2. Danh sách các Actor
@@ -286,7 +286,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 <details>
     <summary style ="font-weight: bolder">Đặc tả Use-case: "Xoá học phần"</summary>
 
-● **Tóm tắt**: Use case này cho phép nhân viên phòng đào tạo xóa một học phần trong danh sách các học phần.
+● **Tóm tắt**: Use case này cho phép nhân viên phòng đào tạo xóa một học phần trong danh sách các học phần.<br>
 ● **Dòng sự kiện**:
 - **Dòng sự kiện chính**:
     - Use case này bắt đầu khi nhân viên phòng đào tạo bấm vào nút Delete ở cuối dòng của một học phần trong danh sách các học phần. Một trang mới xuất hiện chứa thông tin học phần được chọn kèm theo hai nút ‘Xóa’ và 'Hủy' ở cuối.
@@ -328,7 +328,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 <details>
     <summary style ="font-weight: bolder">Đặc tả Use-case: "Thêm lớp học phần"</summary>
 
-● **Tóm tắt**: Use case này cho phép nhân viên phòng đào tạo thêm một lớp học phần vào danh sách các lớp học phần của học kì hiện tại.
+● **Tóm tắt**: Use case này cho phép nhân viên phòng đào tạo thêm một lớp học phần vào danh sách các lớp học phần của học kì hiện tại.<br>
 ● **Dòng sự kiện**
 - **Dòng sự kiện chính**:
     - Use case này bắt đầu khi nhân viên phòng đào tạo bấm vào nút ‘Thêm’ ở trên danh sách các lớp học phần. Một trang xuất hiện với tiêu đề “Thêm lớp học phần” chứa các dòng trống để điền các thông tin cần thiết của học phần, trên đầu mỗi dòng có tên của thông tin cần điền vào. 
@@ -340,7 +340,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
     - ⮚	Thông tin học phần không hợp lệ
         - Nếu nhân viên phòng đào tạo bấm nút 'Lưu' mà trong số các thông tin được nhân viên phòng đào tạo nhập vào không hợp lệ thì một thông báo sẽ xuất hiện ở dưới thông tin đó, thông báo sẽ về thể loại dữ liệu của thông tin để nhân viên phòng đào tạo biết đồng thời sẽ không lưu lớp học phần này và tiếp tục use case. 
 
-● **Các yêu cầu đặc biệt**: Không có.
+● **Các yêu cầu đặc biệt**: Không có.<br>
 ● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: 
 - Nhân viên phòng đào tạo phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Hệ thống phải có danh sách học phần.
@@ -353,14 +353,14 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 <details>
     <summary style ="font-weight: bolder">Đặc tả Use-case: "Xóa lớp học phần"</summary>
 
-● **Tóm tắt**: Use case này cho phép nhân viên phòng đào tạo xóa một lớp học phần trong danh sách các lớp học phần của học kì hiện tại.
+● **Tóm tắt**: Use case này cho phép nhân viên phòng đào tạo xóa một lớp học phần trong danh sách các lớp học phần của học kì hiện tại.<br>
 ● **Dòng sự kiện**
 - **Dòng sự kiện chính**:
     - Use case này bắt đầu khi nhân viên phòng đào tạo bấm vào nút Delete ở cuối dòng của một lớp học phần trong danh sách các lớp học phần. Một trang mới xuất hiện chứa thông tin lớp học phần được chọn kèm theo hai nút ‘Xóa’ và 'Hủy' ở cuối.
     - Hệ thống sẽ qua lại danh sách học phần khi nhân viên phòng đào tạo bấm nút ‘Xóa’ hoặc 'Hủy'. Nếu bấm nút ‘Xóa’ lớp học phần được chọn để xóa sẽ bị xóa khỏi danh sách lớp học phần và thông tin lớp học phần cũng sẽ được xóa khỏi database. Nếu bấm nút 'Hủy' thì sẽ hủy use case.
 - **Các dòng sự kiện khác**: Không có.<br>
 
-● **Các yêu cầu đặc biệt**: Không có.
+● **Các yêu cầu đặc biệt**: Không có.<br>
 ● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: 
 - Nhân viên phòng đào tạo phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Hệ thống phải có danh sách lớp học phần
@@ -373,7 +373,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 <details>
     <summary style ="font-weight: bolder">Đặc tả Use-case: "Chỉnh sửa lớp học phần"</summary>
 
-● **Tóm tắt**: Use case này cho phép nhân viên phòng đào tạo chỉnh sửa một lớp học phần trong danh sách các lớp học phần của học kì hiện tại.
+● **Tóm tắt**: Use case này cho phép nhân viên phòng đào tạo chỉnh sửa một lớp học phần trong danh sách các lớp học phần của học kì hiện tại.<br>
 ● **Dòng sự kiện**
 - **Dòng sự kiện chính**:
     - Use case này bắt đầu khi nhân viên phòng đào tạo bấm vào nút Edit ở cuối dòng của một lớp học phần trong danh sách các lớp học phần. Một trang xuất hiện với tiêu đề “Chỉnh sửa học phần” chứa các thông tin của lớp học phần.
@@ -382,7 +382,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
     - ⮚ Thông tin học phần không hợp lệ
         - Nếu nhân viên phòng đào tạo bấm nút 'Lưu' mà trong số các thông tin được nhân viên phòng đào tạo nhập vào không hợp lệ thì một thông báo sẽ xuất hiện ở dưới thông tin đó, thông báo sẽ về thể loại dữ liệu của thông tin để nhân viên phòng đào tạo biết đồng thời sẽ không lưu học phần này và tiếp tục use case. 
 
-● **Các yêu cầu đặc biệt**: Không có.
+● **Các yêu cầu đặc biệt**: Không có.<br>
 ● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: 
 - Nhân viên phòng đào tạo phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Hệ thống phải có danh sách lớp học phần
@@ -395,7 +395,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 <details>
     <summary style ="font-weight: bolder">Đặc tả Use-case: "Đăng ký học phần"</summary>
 
-● **Tóm tắt**: Use case này cho phép sinh viên đăng ký các học phần trong danh sách các học phần của học kì hiện tại. Sinh viên có thể theo dõi danh sách các lớp học phần mở để chọn hoặc xóa những học phần mà mình muốn đăng ký hoặc đăng ký sai. Có thể chọn mỗi lần một môn hoặc chọn nhiều môn. Có thể chọn đăng ký nhiều lần.
+● **Tóm tắt**: Use case này cho phép sinh viên đăng ký các học phần trong danh sách các học phần của học kì hiện tại. Sinh viên có thể theo dõi danh sách các lớp học phần mở để chọn hoặc xóa những học phần mà mình muốn đăng ký hoặc đăng ký sai. Có thể chọn mỗi lần một môn hoặc chọn nhiều môn. Có thể chọn đăng ký nhiều lần.<br>
 ● **Dòng sự kiện**
 - **Dòng sự kiện chính**:
     - Use case này bắt đầu khi sinh viên bấm vào mục “Đăng ký học phần”
@@ -414,7 +414,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
     - ⮚	Bấm nút hủy đăng ký khi chưa chọn học phần
         - Nếu sinh viên bấm nút hủy đăng ký khi chưa tích chọn bất kỳ học phần nào cả, một thông báo sẽ xuất hiện yêu cầu sinh viên cần chọn học phần. Sẽ không có bất kỳ học phần nào bị xóa khỏi mục danh sách học phần đã đăng ký. 
 
-● **Các yêu cầu đặc biệt**: Không có.
+● **Các yêu cầu đặc biệt**: Không có.<br>
 ● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: 
 - Sinh viên phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Nhân viên phòng đào tạo đã thực hiện use case thêm học phần.
@@ -427,7 +427,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 <details>
     <summary style ="font-weight: bolder">Đặc tả Use-case: "Xem lịch sử đăng ký"</summary>
 
-• **Tóm tắt**: Use case này cho phép sinh viên tìm kiếm danh sách đăng ký của mình theo năm và học kỳ nhất định.
+• **Tóm tắt**: Use case này cho phép sinh viên tìm kiếm danh sách đăng ký của mình theo năm và học kỳ nhất định.<br>
 • **Dòng sự kiện**
 - **Dòng sự kiện chính**:
     - Use case này bắt đầu khi sinh viên bấm vào mục “Kết quả đăng ký
@@ -437,7 +437,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
   - ⮚ Thông tin nhập không đúng
     - Nếu sinh viên nhập sai hoặc không nhập năm vào thanh trống, sẽ không có danh sách nào được hiển thị.
 
-• **Các yêu cầu đặc biệt**: Không có.
+• **Các yêu cầu đặc biệt**: Không có.<br>
 • **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: 
 - Sinh viên phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Sinh viên đã thực hiện use case đăng ký học phần.
@@ -450,7 +450,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 <details>
     <summary style ="font-weight: bolder">Đặc tả Use-case: "Tìm kiếm học phần"</summary>
 
-● **Tóm tắt**: Use case này cho phép sinh viên tìm kiếm danh sách các lớp học phần được mở theo năm và học kỳ nhất định.
+● **Tóm tắt**: Use case này cho phép sinh viên tìm kiếm danh sách các lớp học phần được mở theo năm và học kỳ nhất định.<br>
 ● **Dòng sự kiện**
 - **Dòng sự kiện chính**:
     - Use case này bắt đầu khi sinh viên bấm vào mục “danh sách các học phần mở”.
@@ -460,7 +460,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
     - ⮚	Thông tin nhập không đúng
       - Nếu sinh viên nhập sai hoặc không nhập năm vào thanh trống, sẽ không có danh sách lớp học phần nào được hiển thị.
 
-● **Các yêu cầu đặc biệt**: Không có.
+● **Các yêu cầu đặc biệt**: Không có.<br>
 ● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: 
 - Sinh viên phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Nhân viên phòng đào tạo đã thực hiện use case thêm học phần.
@@ -473,8 +473,8 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 <details>
     <summary style ="font-weight: bolder">Đặc tả Use-case: "Cập nhật tài khoản sinh viên"</summary>
 
-● **Tóm tắt**: Use case này cho phép sinh viên xem thông tin của mình đồng thời cho phép sửa lại mật khẩu đăng nhập vào hệ thống.
-● **Dòng sự kiện**
+● **Tóm tắt**: Use case này cho phép sinh viên xem thông tin của mình đồng thời cho phép sửa lại mật khẩu đăng nhập vào hệ thống.<br>
+● **Dòng sự kiện**:
 - **Dòng sự kiện chính**:
     - Use case này bắt đầu khi sinh viên bấm vào mục thông tin sinh viên
     - Hệ thống sẽ hiển thị thông tin của sinh viên, các thông tin được hiển thị gồm có: MSSV, họ tên, giới tính, ngày sinh, CTDT, khoa, khóa học. Ở dưới cùng sẽ có một nút ‘Đổi mật khẩu’
@@ -489,7 +489,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
     - ⮚	Mật khẩu hiện mới và nhập lại mật khẩu mới không giống nhau
         - Nếu sinh viên nhập sai hoặc không nhập dòng nhập lại mật khẩu mới, dòng chữ đỏ ‘Nhập lại mật khẩu mới không đúng’ sẽ hiển thị bên trên các dòng.
 
-● **Các yêu cầu đặc biệt**: Không có.
+● **Các yêu cầu đặc biệt**: Không có.<br>
 ● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: Sinh viên phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 ● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công, mật khẩu của tài khoản sinh viên sẽ được cập nhật. Ngược lại sẽ không có gì xảy ra.
 ● **Điểm mở rộng**: Không có.
@@ -499,7 +499,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 <details>
     <summary style ="font-weight: bolder">Đặc tả Use-case: "Đăng nhập"</summary>
 
-● **Tóm tắt**: Use case này mô tả cách đăng nhập vào hệ thống.
+● **Tóm tắt**: Use case này mô tả cách đăng nhập vào hệ thống.<br>
 ● **Dòng sự kiện**
 - **Dòng sự kiện chính**:
     - Use case này bắt đầu khi một actor muốn đăng nhập vào hệ thống. 
@@ -509,7 +509,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
     - ⮚	Thông tin đăng nhập không đúng
       - Nếu các actor nhập tên và mật khẩu sai thì hệ thống sẽ báo lỗi. Actor có thể đăng nhập lại hoặc hủy bỏ việc đăng nhập lúc này use case sẽ kết thúc.
 
-● **Các yêu cầu đặc biệt**: Không có.
+● **Các yêu cầu đặc biệt**: Không có.<br>
 ● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: Trong hệ thống phải có danh sách các tài khoản.
 ● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công, actor sẽ có các quyền sử dụng hệ thống. Ngược lại sẽ không có gì thay đổi.
 ● **Điểm mở rộng**: Không có.
@@ -519,7 +519,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 <details>
     <summary style ="font-weight: bolder">Đặc tả Use-case: "Thêm sinh viên"</summary>
 
-● **Tóm tắt**: Use case này cho phép nhân viên phòng đào tạo thêm một tài khoản sinh viên vào hệ thống.
+● **Tóm tắt**: Use case này cho phép nhân viên phòng đào tạo thêm một tài khoản sinh viên vào hệ thống.<br>
 ● **Dòng sự kiện**
 - **Dòng sự kiện chính**:
     - Use case này bắt đầu khi nhân viên phòng đào bấm vào nút Add ở trên danh sách tài khoản các sinh viên. Một trang xuất hiện với tiêu đề “Thêm tài khoản” chứa các dòng trống để điền các thông tin cần thiết, trên đầu mỗi dòng có tên của thông tin cần điền vào. 
@@ -529,7 +529,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
     - ⮚	Thông tin tài khoản không đầy đủ
       - Nếu nhân viên phòng đào tạo bấm nút 'Lưu' mà có thông tin bị thiếu thì một thông báo sẽ xuất hiện trên đầu thông báo 'thông tin bị thiếu" và sẽ không lưu học phần này và tiếp tục use case.
 
-● **Các yêu cầu đặc biệt**: Không có.
+● **Các yêu cầu đặc biệt**: Không có.<br>
 ● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: Nhân viên phòng đào tạo phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 ● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công, một tài khoản mới sẽ được thêm vào danh sách tài khoản và thông tin tài khoản sẽ được lưu giữ trong database. Ngược lại sẽ không có gì thay đổi.
 ● **Điểm mở rộng**: Không có.
@@ -539,7 +539,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 <details>
     <summary style ="font-weight: bolder">Đặc tả Use-case: "Xóa sinh viên"</summary>
 
-● **Tóm tắt**: Use case này cho phép nhân viên phòng đào tạo xóa một tài khoản sinh viên khỏi hệ thống.
+● **Tóm tắt**: Use case này cho phép nhân viên phòng đào tạo xóa một tài khoản sinh viên khỏi hệ thống.<br>
 ● **Dòng sự kiện**
 - **Dòng sự kiện chính**:
     - Use case này bắt đầu khi người quản lý bấm vào nút Delete ở cuối dòng của một tài khoản trong danh sách tài khoản sinh viên. Một trang sẽ xuất hiện chứa các thông tin của tài khoản được chọn.
@@ -549,7 +549,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
   - ⮚	Thông tin tài khoản không đầy đủ
     - Nếu các thông tin được nhân viên phòng đào tạo nhập vào không đầy đủ thì một dòng thông báo chữ đỏ thể hiện kiểu dữ liệu của thông tin đó sẽ xuất hiện bên dưới thông tin nhập sai hoặc thiếu và sẽ không lưu học phần này.
 
-● **Các yêu cầu đặc biệt**: Không có.
+● **Các yêu cầu đặc biệt**: Không có.<br>
 ● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: 
 - Nhân viên phòng đào tạo phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Trong hệ thống phải có danh sách các tài khoản sinh viên.
@@ -562,7 +562,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 <details>
     <summary style ="font-weight: bolder">Đặc tả Use-case: "Chỉnh sửa sinh viên"</summary>
 
-● **Tóm tắt**: Use case này cho phép nhân viên phòng đào tạo chỉnh sửa một tài khoản sinh viên trong danh sách sinh viên.
+● **Tóm tắt**: Use case này cho phép nhân viên phòng đào tạo chỉnh sửa một tài khoản sinh viên trong danh sách sinh viên.<br>
 ● **Dòng sự kiện**
 - **Dòng sự kiện chính**:
     - Use case này bắt đầu khi nhân viên phòng đào tạo bấm vào nút Edit ở cuối dòng của một tài khoản sinh viên  trong danh sách sinh viên. Một trang mới xuất hiện với tiêu đề “Chỉnh sửa sinh viên” chứa các thông tin của tài khoản sinh viên.
@@ -571,7 +571,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
     - ⮚	Thông tin không hợp lệ
       - Nếu các thông tin được nhân viên phòng đào tạo nhập vào không hợp lệ thì một thông báo đỏ sẽ xuất hiện ở dưới thông tin không hợp lệ bảo rằng thông tin không hợp lệ và cho phép nhân viên phòng đào tạo nhập lại.
 
-● **Các yêu cầu đặc biệt**: Không có.
+● **Các yêu cầu đặc biệt**: Không có.<br>
 ● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: 
 - Nhân viên phòng đào tạo phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Trong hệ thống phải có danh sách các tài khoản sinh viên.
@@ -584,7 +584,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 <details>
     <summary style ="font-weight: bolder">Đặc tả Use-case: "Tìm kiếm sinh viên"</summary>
 
-● **Tóm tắt**: Use case này cho phép nhân viên phòng đào tạo tìm kiếm một tài khoản sinh viên trong danh sách các tài khoản sinh viên.
+● **Tóm tắt**: Use case này cho phép nhân viên phòng đào tạo tìm kiếm một tài khoản sinh viên trong danh sách các tài khoản sinh viên.<br>
 ● **Dòng sự kiện**:
 - **Dòng sự kiện chính**:
     - Trên đầu danh sách các tài khoản sinh viên sẽ có một thanh trống cho phép nhân viên phòng đào tạo điền mã số sinh viên của sinh viên cần tìm kiếm và nút “Tìm”.
@@ -593,7 +593,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
     - ⮚	Thông tin nhập không đúng
       - Nếu nhân viên phòng đào tạo nhập sai hoặc không nhập mã sinh viên thì sẽ không có tài khoản sinh viên nào được hiển thị.
 
-● **Các yêu cầu đặc biệt**: Không có.
+● **Các yêu cầu đặc biệt**: Không có.<br>
 ● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: 
 - Nhân viên phòng đào tạo phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Trong hệ thống phải có danh sách các tài khoản sinh viên.
@@ -606,7 +606,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 <details>
     <summary style ="font-weight: bolder">Đặc tả Use-case: "Quản lý nhân viên"</summary>
 
-● **Tóm tắt**: Use case này cho quản lý thực hiện việc quản lý tài khoản nhân viên phòng đào tạo. Bao gồm các việc như thêm, xóa, chỉnh sửa tài khoản nhân viên trong hệ thống. 
+● **Tóm tắt**: Use case này cho quản lý thực hiện việc quản lý tài khoản nhân viên phòng đào tạo. Bao gồm các việc như thêm, xóa, chỉnh sửa tài khoản nhân viên trong hệ thống. <br>
 ● **Dòng sự kiện**
 - **Dòng sự kiện chính**:
     - Use case này bắt đầu khi quản lý bấm vào danh mục “Quản lý nhân viên”
@@ -630,7 +630,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
     - ⮚	Thông tin tài khoản không đầy đủ
       - Nếu người quản lý bấm nút 'Lưu' mà có thông tin bị thiếu thì một thông báo sẽ xuất hiện trên đầu thông báo 'thông tin bị thiếu" và sẽ không lưu tài khoản này và tiếp tục use case.
 
-● **Các yêu cầu đặc biệt**: Không có.
+● **Các yêu cầu đặc biệt**: Không có.<br>
 ● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: Người quản lý phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 ● **Trạng thái hệ thống sau khi thực hiện Use-case**: Nếu Use case thành công, tài khoản nhân viên sẽ được thêm, xóa, chỉnh sửa ở danh sách tài khoản nhân viên. Ngược lại sẽ không có gì thay đổi.
 ● **Điểm mở rộng**: Không có.
@@ -640,7 +640,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 <details>
     <summary style ="font-weight: bolder">Đặc tả Use-case: "Xem lịch sử mở lớp học phần"</summary>
 
-● **Tóm tắt**: Use case này cho phép người quản lý xem lịch sử thêm lớp học phần vào hệ thống của nhân viên phòng đào tạo
+● **Tóm tắt**: Use case này cho phép người quản lý xem lịch sử thêm lớp học phần vào hệ thống của nhân viên phòng đào tạo<br>
 ● **Dòng sự kiện**
 - **Dòng sự kiện chính**:.
     - Use case này bắt đầu khi người quản lý bấm danh mục “Lớp học phần được tạo”. 
@@ -648,7 +648,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
     - Các thông tin được hiển thị gồm có: Mã nhân viên, tên nhân viên, mã học phần, tên học phần, tên lớp.
 - **Các dòng sự kiện khác**: Không có.
 
-● **Các yêu cầu đặc biệt**: Không có.
+● **Các yêu cầu đặc biệt**: Không có.<br>
 ● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: 
 - Người quản lý phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Trong hệ thống phải có danh sách các tài khoản sinh viên.
@@ -661,15 +661,15 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 <details>
     <summary style ="font-weight: bolder">Đặc tả Use-case: "Xem lịch đăng ký"</summary>
 
-● **Tóm tắt**: Use case này cho phép người quản lý xem lịch sử đăng ký lớp học phần của sinh viên.
+● **Tóm tắt**: Use case này cho phép người quản lý xem lịch sử đăng ký lớp học phần của sinh viên.<br>
 ● **Dòng sự kiện**
 - **Dòng sự kiện chính**:.
     - Use case này bắt đầu khi người quản lý bấm danh mục “Đăng ký của sinh viên”. 
     - Hệ thống sẽ hiển thị danh sách chi tiết các lần đăng ký lớp học phần của sinh viên.
     - Các thông tin được hiển thị gồm có: Mã số sinh viên, tên sinh viên, mã học phần, tên học phần, tên lớp.
 - **Các dòng sự kiện khác**: Không có.
-- 
-● **Các yêu cầu đặc biệt**: Không có.
+
+● **Các yêu cầu đặc biệt**: Không có.<br>
 ● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: 
 - Người quản lý phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Sinh viên đã thực hiện Use-case Đăng ký học phần.
@@ -681,15 +681,15 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 <details>
     <summary style ="font-weight: bolder">Đặc tả Use-case: "Xem số lượng đăng ký"</summary>
 
-● **Tóm tắt**: Use case này cho phép nhân viên văn phòng xem số lượng đăng ký lớp học phần của sinh viên.
+● **Tóm tắt**: Use case này cho phép nhân viên văn phòng xem số lượng đăng ký lớp học phần của sinh viên.<br>
 ● **Dòng sự kiện**
 - **Dòng sự kiện chính**:.
     - Use case này bắt đầu khi nhân viên phòng đào tạo bấm danh mục “Kết quả đăng ký học phần”. 
     - Hệ thống sẽ hiển thị danh sách tổng số sinh viên đã đăng ký lớp học phần.
     - Các thông tin được hiển thị gồm có: Mã học phần, tên học phần, tên lớp, loại học phần, sỉ số, số lượng đã đăng ký.
 - **Các dòng sự kiện khác**: Không có.
-- 
-● **Các yêu cầu đặc biệt**: Không có.
+
+● **Các yêu cầu đặc biệt**: Không có.<br>
 ● **Trạng thái hệ thống khi bắt đầu thực hiện Use-case**: 
 - Nhân viên phòng đào tạo phải đăng nhập vào hệ thống trước khi Use case này bắt đầu.
 - Sinh viên đã thực hiện Use-case Đăng ký học phần.
@@ -840,4 +840,23 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 | 4   | MaNV           | Khoá ngoại | Quan hệ với lớp NVPDT, Not Null      | Mã nhân viên    |
 | 5   | HocKy          | Khoá ngoại | Not Null                             | Học kỳ          |
 | 6   | Nam            | Khoá ngoại | Not Null                             | Năm học         |
+</details>
+
+# Chương 4: Thiết kế dữ liệu
+## 1. Sơ đồ logic<br>
+<img src="pic/sodologic.png">
+
+## 2. Mô tả chi tiết các kiểu dữ liệu trong sơ đồ logic
+
+<details>
+<summary>Nhân viên phòng đào tạo (NVPDT)</summary>
+
+| STT | Tên thuộc tính | Kiểu          | Ràng buộc    | Ý nghĩa/ghi chú     |
+| --- | -------------- | ------------- | ------------ | ------------------- |
+| 1   | **MaNV**       | Int           | Tự động tăng | Mã nhân viên        |
+| 2   | TenNV          | Nvarchar (30) |              | Tên nhân viên       |
+| 3   | GioiTinh       | Nvarchar (3)  |              | Giới tính nhân viên |
+| 4   | Email          | Nvarchar (50) |              | Email nhân viên     |
+| 5   | Matkhau        | Nvarchar (50) | Khác Null    | Mật khẩu            |
+
 </details>
