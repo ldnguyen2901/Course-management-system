@@ -1,5 +1,38 @@
 # Course Management System
 
+<a name=""></a>
+
+### Mục lục
+
+[Chương 1: Phát biểu bài toán](#chương-1-phát-biểu-bài-toán)
+- [1. Xác định vị trí](#1-xác-định-vị-trí)
+- [2. Mô tả Stakeholder và khách hàng](#2-mô-tả-stakeholder-và-khách-hàng)
+- [3. Khảo sát hệ thống](#3-khảo-sát-hệ-thống)
+
+[Chương 2: Mô hình Use-case](#chương-2-mô-hình-use-case)
+- [1. Sơ đồ Use-case](#1-sơ-đồ-use-case)
+- [2. Danh sách các Actor](#2-danh-sách-các-actor)
+- [3. Danh sách các Use-case](#3-danh-sách-các-use-case)
+- [4. Đặc tả Use-case](#4-đặc-tả-use-case)
+
+[Chương 3: Phân tích](#chương-3-phân-tích)
+- [1. Sơ đồ lớp ở mức phân tích](#1-sơ-đồ-ở-mức-phân-tích)
+- [2. Danh sách các đối tượng và quan hệ](#2-danh-sách-các-đối-tượng-và-quan-hệ)
+  - [2.1. Mô tả chi tiết từng đối tượng](#21-mô-tả-chi-tiết-từng-đối-tượng)
+ 
+[Chương 4: Thiết kế dữ liệu](#chương-4-thiết-kế-dữ-liệu)
+- [1. Sơ đồ logic](#1-sơ-đồ-logic)
+- [2. Mô tả chi tiết các kiểu dữ liệu trong sơ đồ logic](#2-mô-tả-chi-tiết-các-kiểu-dữ-liệu-trong-sơ-đồ-logic)
+
+[Chương 5: Kiến trúc hệ thống](#chương-5-kiến-trúc-hệ-thống)
+- [1. Hệ thống mô hình MVC](#1-hệ-thống-mô-hình-mvc)
+- [2. Mô tả chi tiết từng thành phần trong hệ thống](#2-mô-tả-chi-tiết-từng-thành-phần-trong-hệ-thống)
+
+[Chương 6: Thiết kế giao diện](#chương-6-thiết-kế-giao-diện)
+- [Mô tả chi tiết mỗi màn hình](#mô-tả-chi-tiết-mỗi-màn-hình)
+
+[Kết luận](#kết-luận)
+
 # Chương 1: Phát biểu bài toán
 ## 1. Xác định vị trí
 Cơ hội: Việc có một hệ thống quản lý học phần, lớp học phần đồng thời quản lý việc đăng ký của sinh viên rất cần thiết.
@@ -844,7 +877,7 @@ Còn ở mục đăng ký học phần sẽ là bảng danh sách các học ph�
 </details>
 
 # Chương 4: Thiết kế dữ liệu
-## 1. Sơ đồ logic<br>
+## 1. Sơ đồ logic 
 <img src="pic/sodologic.png">
 
 ## 2. Mô tả chi tiết các kiểu dữ liệu trong sơ đồ logic
@@ -1243,13 +1276,13 @@ Luồng xử lý trong của mô hình MVC, bạn có thể hình dung cụ th�
 # Kết luận
 
 Môi trường phát triển và Môi trường triển khai
-- Môi trường phát triển ứng dụng:
+- **Môi trường phát triển ứng dụng**:
     - Hệ điều hành: Microsoft Windows 10
     - Hệ quản trị cơ sở dữ liệu: Microsoft SQL server Management Studio 18
     - Công cụ phân tích thiết kế: Draw\.io
     - Công cụ xây dựng ứng dụng: Visual Studio 2019
     - Các thư viện đã dùng: Bootstrap, System, System.Collections.Generic ,System.Data.SqlClient, System.Dynamic, System.Linq, System.Reflection, System\.Web, System.Web.Mvc
-- Môi trường triển khai ứng dụng:
+- **Môi trường triển khai ứng dụng**:
     - Hệ điều hành: Microsoft Windows 
     - Cần cài đặt .Net Framework 4.8, LINQ to SQL tool, ASP\.NET and web development cho Visual Studio
 
